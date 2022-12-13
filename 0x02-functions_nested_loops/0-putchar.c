@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * main - print _putchar
- * is writing by henry
+ * is written by henry
  * Return: 0
  */
+
 int main(void)
 {
 _putchar('_');
