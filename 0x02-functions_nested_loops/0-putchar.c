@@ -14,7 +14,7 @@ int b = 0;
 while (b < 9)
 {
 _putchar(henry[b]);
-b  =  b + 1;
+b++;
 }
 
 _putchar('\n');
