@@ -2,23 +2,20 @@
 
 /**
  * main - print _putchar
- * is written by henry
- * Return: 0
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-char henry[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char *sh = "main";
 
-int b = 0;
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
 
-while (b < 9)
-{
-_putchar(henry[b]);
-b++;
-}
-
-_putchar('\n');
-
-
-return (0);
+	return (0);
 }
