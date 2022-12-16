@@ -3,13 +3,13 @@
 /**
  * _isupper - Check if a letter is upper
  *
- * @x: this is the entry
+ * @c: this is the entry
  *
  * Return: 0
  *
  */
 
-int _isupper(int x)
+int _isupper(int c)
 
 {
 if (c >= 'A' && c <= 'Z')
