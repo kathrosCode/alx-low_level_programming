@@ -4,12 +4,12 @@
  * print_most_numbers - Prints numbers except 2 and 4
  *
  *
- * Return: return nothing
+ * Return: returns nothing
  */
 void print_most_numbers(void)
 {
 int number;
-for (digits = 48; digits <= 58; number++)
+for (number = 48; number < 58; number++)
 {
 
 
