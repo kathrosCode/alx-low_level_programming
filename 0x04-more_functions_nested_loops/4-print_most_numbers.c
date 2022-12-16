@@ -6,7 +6,6 @@
  *
  * Return: is zero
  */
-
 void print_most_numbers(void)
 {
 	char digits;
