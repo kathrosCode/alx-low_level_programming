@@ -1,10 +1,11 @@
 #include "main.h"
-
 /**
- * _atoi - Entry point
- * @s: input
- * Return: Always 0 (Success)
+ * _atoi - convert string to an integer.
+ * @s: pointer to a character string.
+ *
+ * Return: void
  */
+
 int _atoi(char *s)
 {
 	int sign;
