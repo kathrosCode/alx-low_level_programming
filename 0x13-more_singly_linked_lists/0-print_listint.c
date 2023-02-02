@@ -2,19 +2,20 @@
 
 /**
  * print_listint - Prints elements of a list
- * @h: const struct listint_t
- * Return:x size_t
+ * @h: const struct listint_t to print
+ * Return: number of nodes
  */
 
 size_t print_listint(const listint_t *h)
 {
-	unsigned int index = 0;
+	size_t num = 0;
 
-	while (h != NULL)
+	while (h)
 	{
 		printf("%d\n", h->n);
+		num++;
 		h = h->next;
-		index++;
 	}
-	return (index);
+
+	return (num);
 }
